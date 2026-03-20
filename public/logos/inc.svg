@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0f0f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g1)" rx="40"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#d4af37" stroke-width="12"/>
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#228b22" stroke-width="4"/>
+  <path d="M 200 120 L 220 180 L 280 180 L 230 220 L 250 280 L 200 240 L 150 280 L 170 220 L 120 180 L 180 180 Z" fill="#d4af37"/>
+  <text x="200" y="80" font-family="Georgia, serif" font-weight="bold" font-size="32" fill="#228b22" text-anchor="middle">INDIAN NURSING COUNCIL</text>
+  <text x="200" y="340" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#000000" text-anchor="middle" letter-spacing="4">NEW DELHI</text>
+</svg>

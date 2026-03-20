@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#001f40"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="200" r="180" fill="url(#g1)" stroke="#008080" stroke-width="8"/>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-weight="900" font-size="64" fill="#ffffff" text-anchor="middle">TNMGRMU</text>
+  <text x="200" y="240" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#008080" text-anchor="middle" letter-spacing="2">ACCREDITED</text>
+</svg>
