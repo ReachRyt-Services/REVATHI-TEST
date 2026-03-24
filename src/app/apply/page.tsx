@@ -444,6 +444,27 @@ export default function ApplyPage() {
                     <a href="tel:+918489968555" className="flex items-center gap-4 bg-accent text-[#0F3D3D] p-6 rounded-2xl justify-center font-black text-xl uppercase tracking-widest shadow-xl hover:scale-[1.02] transition-transform">
                        <Phone size={24} /> Admission Team: 8489968555
                     </a>
+                    
+                    <div className="mt-4 pt-4 border-t border-white/20">
+                      <h4 className="text-sm font-black text-white/60 uppercase tracking-widest mb-4 text-center">General Enquiries</h4>
+                      <div className="flex flex-col gap-3">
+                        <a href="tel:+916379312096" className="flex items-center justify-center gap-3 bg-white/10 text-white p-4 rounded-xl font-bold hover:bg-white/20 transition-colors">
+                           <Phone size={20} /> +91 63793 12096
+                        </a>
+                        <a href="mailto:mail@revathiinstitutions.com" className="flex items-center justify-center gap-3 bg-white/10 text-white p-4 rounded-xl font-bold hover:bg-white/20 transition-colors">
+                           <Mail size={20} /> mail@revathiinstitutions.com
+                        </a>
+                      </div>
+                    </div>
+
+                    <div className="mt-2 pt-4 border-t border-white/20">
+                      <h4 className="text-sm font-black text-white/60 uppercase tracking-widest mb-4 text-center">Career & HR</h4>
+                      <div className="flex flex-col gap-3">
+                        <a href="mailto:hr@revathiinstitutions.com" className="flex items-center justify-center gap-3 bg-white/10 text-white p-4 rounded-xl font-bold hover:bg-white/20 transition-colors">
+                           <Mail size={20} /> hr@revathiinstitutions.com
+                        </a>
+                      </div>
+                    </div>
                   </div>
                </div>
             </div>
