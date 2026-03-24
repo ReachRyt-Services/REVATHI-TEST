@@ -12,14 +12,14 @@ export default function ContactPage() {
             "name": "Revathi Institutions",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "NH Routing, Bypass Road",
-              "addressLocality": "Tiruppur",
+              "streetAddress": "Ganani Bus Stop, Coimbatore Bypass",
+              "addressLocality": "Avinashi (TK), Tirupur",
               "addressRegion": "Tamil Nadu",
-              "postalCode": "641604",
+              "postalCode": "641654",
               "addressCountry": "IN"
             },
-            "telephone": "+91-421-2345678",
-            "email": "admissions@revathi.edu.in",
+            "telephone": "+91 9842202288",
+            "email": "counsellor1@revathiinstitutions.com",
             "geo": {
               "@type": "GeoCoordinates",
               "latitude": "11.1085",
@@ -37,7 +37,7 @@ export default function ContactPage() {
           </div>
           <h1 className="text-5xl font-black text-primary font-display mb-6 tracking-tight">Connect With Us</h1>
           <p className="text-lg text-text-dark/70 font-semibold leading-relaxed">
-            Have questions about our programs, admissions, or campus in <span className="text-primary underline decoration-accent/30 underline-offset-4">Tiruppur</span>? Our administrative team is ready to assist you.
+            Have questions about our programs, admissions, or campus in <span className="text-primary underline decoration-accent/30 underline-offset-4">Tirupur</span>? Our administrative team is ready to assist you.
           </p>
         </div>
 
@@ -53,8 +53,8 @@ export default function ContactPage() {
                 <h3 className="font-black text-xl text-text-dark mb-2 font-display uppercase tracking-tight">Main Campus Address</h3>
                 <p className="text-text-dark/70 font-semibold leading-relaxed">
                   Revathi Institutions,<br />
-                  NH Routing, Bypass Road,<br />
-                  Tirupur, Tamil Nadu 641604
+                  Ganani Bus Stop, Coimbatore Bypass,<br />
+                  Avinashi (TK), Tirupur – 641654
                 </p>
               </div>
             </div>
@@ -66,8 +66,8 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-black text-xl text-text-dark mb-2 font-display uppercase tracking-tight">Phone Inquiries</h3>
                 <p className="text-text-dark/70 font-semibold leading-relaxed">
-                  Admissions: +91 90000 00000<br />
-                  General: +91 421 2345678
+                  Admission Team: 9842202288<br />
+                  Admission Team: 8489968555
                 </p>
               </div>
             </div>
@@ -79,8 +79,8 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-black text-xl text-text-dark mb-2 font-display uppercase tracking-tight">Email Addresses</h3>
                 <p className="text-text-dark/70 font-semibold leading-relaxed">
-                  Admissions: admissions@revathi.edu.in<br />
-                  Information: info@revathi.edu.in
+                  counsellor1@revathiinstitutions.com<br />
+                  counsellor2@revathiinstitutions.com
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ export default function ContactPage() {
             <h3 className="text-2xl font-black mb-2 font-display uppercase tracking-tight">Want an immediate reply?</h3>
             <p className="font-semibold text-white/90">Chat directly with our admission counsellors on WhatsApp.</p>
           </div>
-          <a href="https://wa.me/919000000000" target="_blank" rel="noreferrer" className="mt-6 md:mt-0 bg-white text-[#25D366] px-8 py-4 rounded-lg font-black uppercase tracking-widest shadow-md hover:scale-105 transition-transform">
+          <a href="https://wa.me/919842202288" target="_blank" rel="noreferrer" className="mt-6 md:mt-0 bg-white text-[#25D366] px-8 py-4 rounded-lg font-black uppercase tracking-widest shadow-md hover:scale-105 transition-transform">
             Chat on WhatsApp
           </a>
         </div>

@@ -60,15 +60,15 @@ export default function RootLayout({
     "logo": "https://revathi.edu.in/logo.png",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "NH Routing, Bypass Road",
-      "addressLocality": "Tiruppur",
+      "streetAddress": "Ganani Bus Stop, Coimbatore Bypass",
+      "addressLocality": "Avinashi (TK), Tirupur",
       "addressRegion": "Tamil Nadu",
-      "postalCode": "641604",
+      "postalCode": "641654",
       "addressCountry": "IN"
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+91-421-2345678",
+      "telephone": "+91 9842202288",
       "contactType": "Admissions",
       "areaServed": "IN",
       "availableLanguage": ["en", "ta"]

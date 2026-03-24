@@ -138,11 +138,11 @@ export function RevathiNavbar() {
       {/* Top info bar */}
       <div className="hidden md:flex items-center justify-between bg-primary text-white px-6 py-1.5 text-xs font-semibold">
         <div className="flex items-center gap-6">
-          <a href="mailto:admissions@revathi.edu.in" className="flex items-center gap-1.5 hover:text-accent transition-colors">
-            <Mail size={11} /> admissions@revathi.edu.in
+          <a href="mailto:counsellor1@revathiinstitutions.com" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+            <Mail size={11} /> counsellor1@revathiinstitutions.com
           </a>
-          <a href="tel:+914212345678" className="flex items-center gap-1.5 hover:text-accent transition-colors">
-            <Phone size={11} /> +91 421 234 5678
+          <a href="tel:+919842202288" className="flex items-center gap-1.5 hover:text-accent transition-colors">
+            <Phone size={11} /> Admission Team: 9842202288
           </a>
         </div>
         <div className="flex items-center gap-4">

@@ -70,7 +70,7 @@ export default async function CourseDetailPage({
         "name": "Revathi Medical Center Campus",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Tiruppur",
+          "addressLocality": "Tirupur",
           "addressRegion": "Tamil Nadu",
           "addressCountry": "IN"
         }
@@ -111,8 +111,8 @@ export default async function CourseDetailPage({
         backgroundImage={course.heroImage}
         contactInfo={{
           website: "revathiinstitutions.com",
-          phone: "+91 800-REVATHI",
-          address: "Revathi Medical Center Campus",
+          phone: "Admission Team: 9842202288",
+          address: "Ganani Bus Stop, Coimbatore Bypass, Tirupur",
         }}
       />
 

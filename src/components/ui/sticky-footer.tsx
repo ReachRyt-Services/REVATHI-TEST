@@ -71,9 +71,10 @@ export function StickyFooter({ className, ...props }: StickyFooterProps) {
                   ))}
                 </div>
                 <div className="text-xs text-white/40 font-semibold space-y-1">
-                  <p>📧 admissions@revathi.edu.in</p>
-                  <p>📞 +91 421 234 5678</p>
-                  <p>📍 NH-47 Bypass Road, Tiruppur, Tamil Nadu</p>
+                  <p>📧 counsellor1@revathiinstitutions.com</p>
+                  <p>📧 counsellor2@revathiinstitutions.com</p>
+                  <p>📞 Admission Team: +91 9842202288, +91 8489968555</p>
+                  <p>📍 Ganani Bus Stop, Coimbatore Bypass, Avinashi (TK), Tirupur – 641654</p>
                 </div>
               </AnimatedContainer>
 

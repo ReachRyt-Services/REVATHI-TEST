@@ -42,8 +42,8 @@ export default function ApplyPage() {
             <a href="#placements" className="text-[10px] font-black uppercase tracking-widest text-primary/60 hover:text-primary transition-colors">Careers</a>
             <a href="#gallery" className="text-[10px] font-black uppercase tracking-widest text-primary/60 hover:text-primary transition-colors">Campus</a>
         </div>
-        <a href="tel:+919000000000" className="flex items-center gap-2 text-text-dark font-black text-xs uppercase tracking-widest bg-accent px-4 py-2 rounded-lg hover:shadow-lg transition-all">
-          <Phone size={16} className="text-[#0F3D3D]" /> <span className="hidden sm:inline">Admissions: +91 90000 00000</span>
+        <a href="tel:+919842202288" className="flex items-center gap-2 text-text-dark font-black text-xs uppercase tracking-widest bg-accent px-4 py-2 rounded-lg hover:shadow-lg transition-all">
+          <Phone size={16} className="text-[#0F3D3D]" /> <span className="hidden sm:inline">Admission Team: 9842202288</span>
         </a>
       </nav>
 
@@ -408,14 +408,14 @@ export default function ApplyPage() {
                         <div className="p-4 bg-white rounded-2xl shadow-sm h-fit text-accent"><MapPin size={28} /></div>
                         <div>
                            <h4 className="font-black text-primary text-xs uppercase tracking-widest mb-2">Main Campus Address</h4>
-                           <p className="text-primary/60 font-medium text-lg leading-relaxed">No. 12, Hospital Road, <br/>Tamil Nadu, India. 600001</p>
+                           <p className="text-primary/60 font-medium text-lg leading-relaxed">Ganani Bus Stop, Coimbatore Bypass, <br/>Avinashi (TK), Tirupur – 641654</p>
                         </div>
                      </div>
                      <div className="flex gap-6">
                         <div className="p-4 bg-white rounded-2xl shadow-sm h-fit text-accent"><Mail size={28} /></div>
                         <div>
                            <h4 className="font-black text-primary text-xs uppercase tracking-widest mb-2">Electronic Enquiries</h4>
-                           <p className="text-primary/60 font-medium text-lg">admissions@revathi.edu.in <br/>office@revathi.edu.in</p>
+                           <p className="text-primary/60 font-medium text-sm lg:text-base leading-snug">counsellor1@revathiinstitutions.com <br/>counsellor2@revathiinstitutions.com</p>
                         </div>
                      </div>
                   </div>
@@ -424,8 +424,8 @@ export default function ApplyPage() {
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-bl-full"></div>
                   <h4 className="text-2xl font-black font-display uppercase tracking-tight mb-6">Need Immediate Help?</h4>
                   <p className="text-white/60 font-medium leading-relaxed mb-10">Our academic counsellors are available Monday to Saturday, 9:00 AM to 6:00 PM to help you with the selection process.</p>
-                  <a href="tel:+919000000000" className="flex items-center gap-4 bg-accent text-[#0F3D3D] p-6 rounded-2xl justify-center font-black text-xl uppercase tracking-widest shadow-xl hover:scale-[1.02] transition-transform">
-                     <Phone size={24} /> Call: +91 90000 00000
+                  <a href="tel:+919842202288" className="flex items-center gap-4 bg-accent text-[#0F3D3D] p-6 rounded-2xl justify-center font-black text-xl uppercase tracking-widest shadow-xl hover:scale-[1.02] transition-transform">
+                     <Phone size={24} /> Admission Team: 9842202288
                   </a>
                </div>
             </div>
