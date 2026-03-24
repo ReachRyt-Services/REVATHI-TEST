@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle2, ArrowRight, Phone, Mail, MapPin, Building2, TrendingUp, Users, BookOpen, GraduationCap, Star, ShieldCheck, Zap, Facebook, Instagram, Linkedin, Youtube, Award, Stethoscope, Microscope, HeartPulse } from "lucide-react";
+import { CheckCircle2, ArrowRight, Phone, Mail, MapPin, Building2, TrendingUp, Users, BookOpen, GraduationCap, Star, ShieldCheck, Zap, Facebook, Instagram, Linkedin, Youtube, Award, Stethoscope, Microscope, HeartPulse, UserPlus, FileText, CreditCard, CheckSquare, Download } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Logos3 } from "@/components/campus/Logos3";
@@ -18,6 +18,14 @@ const galleryImages = [
   "https://images.unsplash.com/photo-1538108197017-c1346673919e?auto=format&fit=crop&q=80&w=800",
   "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800",
   "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800",
+];
+
+const applySteps = [
+  { step: "STEP 1", title: "Register Yourself", icon: <UserPlus size={40} /> },
+  { step: "STEP 2", title: "Verify Email", icon: <Mail size={40} /> },
+  { step: "STEP 3", title: "Fill Application Form Online", icon: <FileText size={40} /> },
+  { step: "STEP 4", title: "Pay Application Fee", icon: <CreditCard size={40} /> },
+  { step: "STEP 5", title: "Submit Application", icon: <CheckSquare size={40} /> },
 ];
 
 export default function ApplyPage() {
@@ -137,6 +145,83 @@ export default function ApplyPage() {
                 </button>
               </form>
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Application Steps ──────────────────────────────────────────────── */}
+      <section className="py-16 bg-[#F8FAFB]">
+        <div className="max-w-7xl mx-auto px-4 lg:px-8">
+          <div className="grid grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-6">
+            {applySteps.map((step, idx) => (
+              <div 
+                key={idx} 
+                className="bg-white rounded-3xl shadow-sm border border-primary/5 overflow-hidden flex flex-col hover:-translate-y-2 transition-transform duration-300 group"
+              >
+                <div className="bg-accent py-4 text-center border-b-4 border-accent shadow-sm">
+                  <span className="text-[#0F3D3D] font-black uppercase text-xs tracking-[0.2em]">{step.step}</span>
+                </div>
+                <div className="p-6 md:p-8 flex flex-col items-center justify-center flex-1 gap-6 text-center transform transition-all duration-300">
+                  <div className="text-primary group-hover:scale-110 group-hover:text-accent transition-all duration-300">
+                    {step.icon}
+                  </div>
+                  <h4 className="font-bold text-sm md:text-base text-primary leading-snug font-display">
+                    {step.title}
+                  </h4>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Steps to Follow ──────────────────────────────────────────────── */} 
+      <section className="py-16 bg-[#F8FAFB]">
+        <div className="max-w-7xl mx-auto px-4 lg:px-8">
+          <div className="text-center mb-10">
+            <h2 className="text-[10px] font-black text-accent uppercase tracking-[0.3em] mb-4">Application Guide</h2>
+            <h3 className="text-3xl lg:text-4xl font-black text-primary uppercase font-display tracking-tight drop-shadow-sm">
+              STEPS TO <span className="text-accent underline decoration-primary/10">FOLLOW</span>
+            </h3>
+          </div>
+          <div className="flex flex-col lg:flex-row bg-primary text-white rounded-[40px] shadow-[0_30px_60px_rgba(0,0,0,0.15)] overflow-hidden relative">
+            
+            {/* Steps To Follow Content */}
+            <div className="p-8 md:p-14 lg:w-4/5 text-sm md:text-base space-y-6 lg:pr-32 relative z-10 font-medium">
+              <ul className="list-disc list-outside ml-6 space-y-6 text-white/80 items-start marker:text-accent">
+                <li className="pl-2 leading-relaxed">The online application is for admission to programmes offered in <strong className="text-white">Revathi Institutions</strong>.</li>
+                <li className="pl-2 leading-relaxed">Application Form Fee is Non-Refundable.</li>
+                <li className="pl-2 leading-relaxed">Email ID submitted at the time of registration will be used for all correspondences until enrolment is completed. Change in Email ID will NOT be permitted under any circumstances.</li>
+                <li className="pl-2 leading-relaxed">
+                   <strong className="text-white block mb-4 text-lg font-display uppercase tracking-tight">Revathi Institutions Query Management System</strong>
+                   Applicants are strongly advised to use Revathi Institutions Query Management System (Revathi Institutions-QMS), rather than emailing, to get a quick response.
+                   <ol className="list-decimal list-outside ml-6 md:ml-10 mt-5 space-y-4 marker:text-white/60 font-medium">
+                      <li className="pl-2">Register and verify your email ID</li>
+                      <li className="pl-2">Click on <strong className="text-accent">[Any Queries? Ask US]</strong> in your dashboard</li>
+                      <li className="pl-2">Select query category and submit your query</li>
+                   </ol>
+                </li>
+              </ul>
+            </div>
+
+            {/* Graphic Silhouette / Steps pattern - decorative overlay */}
+            <div className="hidden lg:block absolute bottom-0 right-32 w-96 h-96 opacity-10 pointer-events-none">
+              <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-accent rounded-full blur-[100px] opacity-20"></div>
+            </div>
+
+            {/* Download Brochure Side Bar (Desktop) */}
+            <div className="hidden lg:flex absolute right-0 top-0 bottom-0 w-28 bg-white/5 border-l border-white/10 flex-col items-center py-12 cursor-pointer hover:bg-accent group transition-all z-20 backdrop-blur-md">
+               <Download size={32} className="text-accent group-hover:text-[#0F3D3D] group-hover:-translate-y-2 transition-all mb-12" />
+               <div className="flex-1 relative w-full group-hover:text-[#0F3D3D]">
+                  <span className="-rotate-90 text-[12px] font-black uppercase tracking-[0.3em] whitespace-nowrap absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white/50 group-hover:text-[#0F3D3D] transition-colors">Download Brochure</span>
+               </div>
+            </div>
+            
+            {/* Download Brochure Button (Mobile) */}
+            <div className="lg:hidden bg-white/5 border-t border-white/10 p-6 flex items-center justify-center gap-4 cursor-pointer hover:bg-accent group transition-all relative z-20">
+                <Download size={24} className="text-accent group-hover:text-[#0F3D3D] transition-colors" />
+                <span className="text-sm font-black uppercase tracking-[0.2em] text-white/70 group-hover:text-[#0F3D3D] transition-colors">Download Brochure</span>
+            </div>
           </div>
         </div>
       </section>
