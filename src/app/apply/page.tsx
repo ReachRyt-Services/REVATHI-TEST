@@ -437,9 +437,14 @@ export default function ApplyPage() {
                   <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-bl-full"></div>
                   <h4 className="text-2xl font-black font-display uppercase tracking-tight mb-6">Need Immediate Help?</h4>
                   <p className="text-white/60 font-medium leading-relaxed mb-10">Our academic counsellors are available Monday to Saturday, 9:00 AM to 6:00 PM to help you with the selection process.</p>
-                  <a href="tel:+919842202288" className="flex items-center gap-4 bg-accent text-[#0F3D3D] p-6 rounded-2xl justify-center font-black text-xl uppercase tracking-widest shadow-xl hover:scale-[1.02] transition-transform">
-                     <Phone size={24} /> Admission Team: 9842202288
-                  </a>
+                  <div className="flex flex-col gap-4">
+                    <a href="tel:+919842202288" className="flex items-center gap-4 bg-accent text-[#0F3D3D] p-6 rounded-2xl justify-center font-black text-xl uppercase tracking-widest shadow-xl hover:scale-[1.02] transition-transform">
+                       <Phone size={24} /> Admission Team: 9842202288
+                    </a>
+                    <a href="tel:+918489968555" className="flex items-center gap-4 bg-accent text-[#0F3D3D] p-6 rounded-2xl justify-center font-black text-xl uppercase tracking-widest shadow-xl hover:scale-[1.02] transition-transform">
+                       <Phone size={24} /> Admission Team: 8489968555
+                    </a>
+                  </div>
                </div>
             </div>
          </div>
