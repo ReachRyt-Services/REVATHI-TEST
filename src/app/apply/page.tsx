@@ -414,10 +414,18 @@ export default function ApplyPage() {
                      <div className="flex gap-6">
                         <div className="p-4 bg-white rounded-2xl shadow-sm h-fit text-accent"><Mail size={28} /></div>
                         <div>
-                           <h4 className="font-black text-primary text-xs uppercase tracking-widest mb-2">Mail ID & Phone</h4>
+                           <h4 className="font-black text-primary text-xs uppercase tracking-widest mb-2">Electronic Enquiries</h4>
                            <p className="text-primary/60 font-medium text-sm lg:text-base leading-snug">
                              counsellor1@revathiinstitutions.com <br/>
-                             counsellor2@revathiinstitutions.com <br/>
+                             counsellor2@revathiinstitutions.com
+                           </p>
+                        </div>
+                     </div>
+                     <div className="flex gap-6">
+                        <div className="p-4 bg-white rounded-2xl shadow-sm h-fit text-accent"><Phone size={28} /></div>
+                        <div>
+                           <h4 className="font-black text-primary text-xs uppercase tracking-widest mb-2">Phone Enquiries</h4>
+                           <p className="text-primary/60 font-medium text-sm lg:text-base leading-snug">
                              +91 98422 02288 <br/>
                              +91 84899 68555
                            </p>
