@@ -14,10 +14,10 @@ const placementStats = [
 ];
 
 const galleryImages = [
-  "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1538108197017-c1346673919e?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800",
-  "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=800",
+  "/gallery/rev.png",
+  "/gallery/rev 2.jpg",
+  "/gallery/rev 5.jpg",
+  "/gallery/rev 8.png",
 ];
 
 const applySteps = [

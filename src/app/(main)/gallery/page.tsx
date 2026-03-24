@@ -8,12 +8,14 @@ export default function GalleryPage() {
   const categories = ["All", "Campus Infrastructure", "Clinical Training", "Events", "Student Life"];
 
   const images = [
-    { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuBcsPZJoD-6e1-Z-ds4WwmYRnfji_HWftGCRjZaFzd7iDUKQsZGvRkORVQm2BHx0tT4FbD6rtwKfbTGl2uk4uV_4aAs5hWWhoRBqQbFHOtrmczO24A2ddEMqGL6BYLdLXfxZ4nwmSr8y7lc44nGNQblyiBaDaIuzLOSgyaIr2QnP0YGPB-MdevEj2GXv7fB01Zusk_j9iFzdghGqFuzCb-1EwSZ5064k9JaAYiFJZlw4OBUcjTBbC8wW5Pk2qI2-qLNKzcjsvm55Sv5", category: "Clinical Training", alt: "Lab Session" },
-    { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuBGkztpOfrzkktR3qMd4D3b39Puk2zwJua1Ras7RGObGnXFqqyXRBCgbWGfwH0FY0sR5eBzFU5hVrZX6qQo_hvNYb10bVppJM7lwAgOj0VZbwMB9gN6da1L9nTpL4HWtGl7VrNipCpD5tIVCKGCxcSVaFhfMh-lfCXJ5fnoIn5SjyJ6ynNGRh0SmiLdJTdxSuC7jZIPtjCpDfLD2ZhR7uHTIN05Fec_HQ1jiAjwzLpSYLAd9YYrDa5uHbYzDnWP3ojRziB5nnFw7yWi", category: "Clinical Training", alt: "Simulation Training" },
-    { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuDmxULUH5EMhyblGO7hMKk0qGIWyejQFIRCFcC38KG8CRO8NWOktsV8jEbexM6W5pNji72w9ThwpLu14RJK8m5lTk4_ml-tbeNDqoHxztOQC5gmupF6omUfpb-9tuG1pcH0APNYON91Gr62q2VbGHB5cdiLXBgrVCyTYJYKsH6ExAMao0P9ThYmQKnUTndzwZlAQoLp9G_-6cNcDk8JZgHiY6bhF-QqAw521Z6tUhGoAaMqwl_dQczypSqe03oR8GZo335_A-foc5aV", category: "Campus Infrastructure", alt: "Main Building" },
-    { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAZf1hE4lYKdYYTc89LJdwOEFZ0l4GsWqIVZzqlKBx9WcCaE4kyoZvS53FrWYTHCknVT-T-AEXANcTeOclPLx_6yBkH2vaeQFrKD6AFalx9lYrRQe8Frvi4v2e56BxOkFo5xQDQvr6p8n9Rj2-7XQKswuBx6foYp8B9nbflPe9D4gulfHMbNHnUTI3MDTdAJjJUsrZjELp1yOh2EADk4nbxYMSyZ6ci6bbf7XqT_CXpAvwlby2Rlqp0jUAEe-ZBGVBUZ25bGPygbr5l", category: "Campus Infrastructure", alt: "Library" },
-    { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuCayiUriIwioB-gZ_N-f6BXwPQE7wm9YuVeKo4G_JnNohxcAfuzVqHkjhTF0inJp2sCzX4U2xkZNVKbQGrQVc2XCtC9gal2Sr1gZDiNIoiLe5p4HPpEHUfqnqXEaTDzsRrRMROc7xFr1uauK9ImcK-JioYr3WcL11bzETYViI939RNCaJ_sd8_5RgBbjJrhm8DnMLxYKrDtMaLuL4RbyIvm0PbjPDL8S6_m_PulUM7Ad251sYRpHcu9FVPnUyhf7TX76uRs_nUsIMoF", category: "Events", alt: "Annual Conference" },
-    { src: "https://lh3.googleusercontent.com/aida-public/AB6AXuAccHpkNuTlr4VhCW86j1wk3hNc2yEkcKKeDZi3hT79ckgnwfnpgOHxNaUN-kX--Q8RyivZUkJVmtANlEdzdioVXvfhYm_2ZpaHwbnaAZcGSipTByOEqVWIho4QjXCzFoQmOcMC85v3RVNPC0drtKS_1oK1Nr9IxVrsaYdkZMO2N1iYUJjJ04JDvJc3Pul_QkGou1LLruHv7Gj621bd3GxmbdOu30HSu8bpYv8q469wXhwpGTFqRUrBhu0P3gfDSnTIT4ql--WWB-kH", category: "Student Life", alt: "Sports Day" }
+    { src: "/gallery/rev.png", category: "Campus Infrastructure", alt: "Revathi Main Building" },
+    { src: "/gallery/rev 2.jpg", category: "Clinical Training", alt: "Lab Session" },
+    { src: "/gallery/rev 3.jpg", category: "Clinical Training", alt: "Simulation Training" },
+    { src: "/gallery/rev 5.jpg", category: "Events", alt: "Annual Conference" },
+    { src: "/gallery/rev 6.jpg", category: "Student Life", alt: "Sports Day" },
+    { src: "/gallery/rev7.png", category: "Campus Infrastructure", alt: "Library" },
+    { src: "/gallery/rev 8.png", category: "Events", alt: "Cultural Fest" },
+    { src: "/gallery/rev 9.jpg", category: "Clinical Training", alt: "Medical Practice" }
   ];
 
   const filteredImages = activeCategory === "All" ? images : images.filter(img => img.category === activeCategory);
