@@ -3,8 +3,19 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Hero() {
+  useEffect(() => {
+    // Inject the NoPaperForms widget script if it's not already present
+    if (!document.querySelector('script[src="https://widgets.in6.nopaperforms.com/emwgts.js"]')) {
+      const script = document.createElement("script");
+      script.type = "text/javascript";
+      script.async = true;
+      script.src = "https://widgets.in6.nopaperforms.com/emwgts.js";
+      document.body.appendChild(script);
+    }
+  }, []);
   return (
     <section className="relative min-h-[600px] lg:min-h-[750px] flex items-center overflow-hidden bg-text-dark">
       <div className="absolute inset-0 z-0">

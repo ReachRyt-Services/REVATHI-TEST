@@ -146,9 +146,9 @@ export function RevathiNavbar() {
           </a>
         </div>
         <div className="flex items-center gap-4">
-          <a href="#" className="hover:text-accent transition-colors uppercase tracking-widest text-[10px]">Staff Portal</a>
+          <a href="https://cims.mastersofterp.in/" className="hover:text-accent transition-colors uppercase tracking-widest text-[10px]">Staff Portal</a>
           <span className="text-white/30">|</span>
-          <a href="#" className="hover:text-accent transition-colors uppercase tracking-widest text-[10px]">Student Login</a>
+          <a href="https://cims.mastersofterp.in/" className="hover:text-accent transition-colors uppercase tracking-widest text-[10px]">Student Login</a>
         </div>
       </div>
 

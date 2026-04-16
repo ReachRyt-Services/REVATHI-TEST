@@ -142,8 +142,8 @@ const footerLinkGroups: FooterLinkGroup[] = [
       { title: 'Eligibility',     href: '/admissions'  },
       { title: 'Fee Structure',   href: '/downloads'   },
       { title: 'Scholarships',    href: '/admissions'  },
-      { title: 'Student Login',   href: '#'            },
-      { title: 'Staff Portal',    href: '#'            },
+      { title: 'Student Login',   href: 'https://cims.mastersofterp.in/'            },
+      { title: 'Staff Portal',    href: 'https://cims.mastersofterp.in/'            },
     ],
   },
   {
