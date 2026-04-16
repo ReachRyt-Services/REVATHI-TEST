@@ -143,7 +143,7 @@ export default function OurStoryPage() {
             <p className="text-[#333]/60 font-medium mb-8 text-lg">Be part of the next chapter.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/apply"
+                href="https://apply.revathiinstitutions.com/"
                 className="inline-flex items-center justify-center gap-2 bg-[#003366] text-white px-8 py-4 font-black uppercase tracking-widest text-sm rounded-xl hover:bg-[#008080] transition-all duration-300 shadow-lg group"
               >
                 Begin Your Journey <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

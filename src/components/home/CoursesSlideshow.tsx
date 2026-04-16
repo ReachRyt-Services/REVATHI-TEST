@@ -117,7 +117,7 @@ export default function CoursesSlideshow() {
                 Integrated with 300-Bed Hospital
               </p>
               <Link
-                href="/apply"
+                href="https://apply.revathiinstitutions.com/"
                 className="text-xs font-black uppercase tracking-widest text-[#F2A007] hover:text-[#003366] transition-colors flex items-center gap-1"
               >
                 Apply <ArrowRight size={12} />

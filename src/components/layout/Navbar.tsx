@@ -104,7 +104,7 @@ const menu: MenuItem[] = [
         title: "How to Apply",
         description: "Step-by-step admissions guide and eligibility criteria",
         icon: <FileText className="size-5 shrink-0 text-accent/80" />,
-        url: "/apply",
+        url: "https://apply.revathiinstitutions.com/",
       },
       {
         title: "Admissions Info",
@@ -177,7 +177,7 @@ export function RevathiNavbar() {
 
           <div className="flex items-center gap-3">
             <Button asChild size="sm" className="bg-accent hover:bg-accent/90 text-white font-black uppercase tracking-widest">
-              <a href="/apply">Apply Now</a>
+              <a href="https://apply.revathiinstitutions.com/">Apply Now</a>
             </Button>
           </div>
         </nav>
@@ -226,7 +226,7 @@ export function RevathiNavbar() {
                 </div>
                 <div className="flex flex-col gap-3">
                   <Button asChild className="bg-accent text-white font-black uppercase tracking-widest hover:bg-accent/90">
-                    <a href="/apply">Apply Now</a>
+                    <a href="https://apply.revathiinstitutions.com/">Apply Now</a>
                   </Button>
                 </div>
               </div>

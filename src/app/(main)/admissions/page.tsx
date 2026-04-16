@@ -53,7 +53,7 @@ export default function AdmissionsPage() {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <h3 className="text-2xl font-black text-text-dark mb-6 font-display uppercase tracking-tight">Ready to Command Your Future?</h3>
-          <Link href="/apply" className="inline-block bg-accent text-text-dark px-12 py-5 font-black uppercase tracking-widest hover:bg-primary hover:text-bg-light transition-all shadow-xl rounded-lg">
+          <Link href="https://apply.revathiinstitutions.com/" className="inline-block bg-accent text-text-dark px-12 py-5 font-black uppercase tracking-widest hover:bg-primary hover:text-bg-light transition-all shadow-xl rounded-lg">
             Start the Application
           </Link>
         </div>

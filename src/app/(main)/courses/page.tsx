@@ -139,7 +139,7 @@ export default function CoursesPage() {
                           <Link href={`/courses/${course.slug}`} className="flex items-center gap-2 text-primary font-black text-xs uppercase tracking-widest hover:text-accent transition-colors">
                             Details <ArrowRight size={14} />
                           </Link>
-                          <Link href="/apply" className="px-4 py-2 bg-primary/5 hover:bg-primary text-primary hover:text-white font-bold text-[10px] uppercase tracking-widest rounded-lg transition-all">
+                          <Link href="https://apply.revathiinstitutions.com/" className="px-4 py-2 bg-primary/5 hover:bg-primary text-primary hover:text-white font-bold text-[10px] uppercase tracking-widest rounded-lg transition-all">
                             Apply
                           </Link>
                         </div>
@@ -166,7 +166,7 @@ export default function CoursesPage() {
               <Link href="/contact" className="px-6 py-4 sm:px-8 sm:py-5 bg-accent text-[#0F3D3D] font-black uppercase tracking-widest text-xs sm:text-sm rounded-xl hover:bg-white transition-all text-center shadow-lg">
                 Schedule Counselling
               </Link>
-              <Link href="/apply" className="px-6 py-4 sm:px-8 sm:py-5 border-2 border-white/20 text-white font-black uppercase tracking-widest text-xs sm:text-sm rounded-xl hover:bg-white/10 transition-all text-center">
+              <Link href="https://apply.revathiinstitutions.com/" className="px-6 py-4 sm:px-8 sm:py-5 border-2 border-white/20 text-white font-black uppercase tracking-widest text-xs sm:text-sm rounded-xl hover:bg-white/10 transition-all text-center">
                 Fast Track Application
               </Link>
             </div>

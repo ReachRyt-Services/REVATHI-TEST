@@ -107,7 +107,7 @@ export default async function CourseDetailPage({
           </>
         }
         subtitle="Empowering the next generation of healthcare leaders through rigorous clinical mastery and direct 300-bed hospital integration."
-        callToAction={{ text: "APPLY ONLINE NOW", href: "/apply" }}
+        callToAction={{ text: "APPLY ONLINE NOW", href: "https://apply.revathiinstitutions.com/" }}
         backgroundImage={course.heroImage}
         contactInfo={{
           website: "revathiinstitutions.com",
@@ -132,7 +132,7 @@ export default async function CourseDetailPage({
             ))}
           </div>
           <Link
-            href="/apply"
+            href="https://apply.revathiinstitutions.com/"
             className="w-full sm:w-auto flex items-center justify-center gap-2 shrink-0 bg-[#F2A007] text-[#0F3D3D] px-8 py-3.5 font-black uppercase tracking-widest text-xs sm:text-sm rounded-xl hover:bg-[#003366] hover:text-white transition-all duration-300 shadow-md group"
           >
             Enroll Now <ArrowRight className="group-hover:translate-x-1 transition-transform" size={16} />

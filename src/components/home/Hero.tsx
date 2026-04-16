@@ -53,7 +53,7 @@ export default function Hero() {
               </div>
             </div>
             
-            <Link href="/apply" className="bg-bg-light text-primary hover:bg-accent hover:text-text-dark px-10 py-5 rounded-xl font-black uppercase tracking-widest transition-all inline-flex items-center gap-3 shadow-xl">
+            <Link href="https://apply.revathiinstitutions.com/" className="bg-bg-light text-primary hover:bg-accent hover:text-text-dark px-10 py-5 rounded-xl font-black uppercase tracking-widest transition-all inline-flex items-center gap-3 shadow-xl">
               Start Online Application <span className="material-symbols-outlined">chevron_right</span>
             </Link>
           </motion.div>
@@ -66,34 +66,8 @@ export default function Hero() {
           >
             <h3 className="text-xl sm:text-2xl font-black text-primary mb-2 uppercase tracking-tight font-display">Secure Your Future</h3>
             <p className="text-sm sm:text-base text-text-dark/70 mb-8 font-semibold">Initiate your professional breakthrough today.</p>
-            <form className="space-y-6">
-              <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-text-dark/40 mb-2">Professional Name</label>
-                <input className="w-full px-4 py-4 rounded-xl border-text-dark/10 bg-white focus:ring-primary focus:border-primary font-semibold text-text-dark" placeholder="Enter full name" type="text"/>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                <div>
-                  <label className="block text-[10px] font-black uppercase tracking-widest text-text-dark/40 mb-2">Corporate Email</label>
-                  <input className="w-full px-4 py-4 rounded-xl border-text-dark/10 bg-white focus:ring-primary focus:border-primary font-semibold text-text-dark" placeholder="email@domain.com" type="email"/>
-                </div>
-                <div>
-                  <label className="block text-[10px] font-black uppercase tracking-widest text-text-dark/40 mb-2">Contact Number</label>
-                  <input className="w-full px-4 py-4 rounded-xl border-text-dark/10 bg-white focus:ring-primary focus:border-primary font-semibold text-text-dark" placeholder="+91" type="tel"/>
-                </div>
-              </div>
-              <div>
-                <label className="block text-[10px] font-black uppercase tracking-widest text-text-dark/40 mb-2">Desired Specialization</label>
-                <select className="w-full px-4 py-4 rounded-xl border-text-dark/10 bg-white focus:ring-primary focus:border-primary font-semibold text-text-dark" defaultValue="default">
-                  <option value="default" disabled>Select Specialization</option>
-                  <option value="nursing">Advanced Nursing</option>
-                  <option value="physio">Physiotherapy & Rehab</option>
-                  <option value="critical">Critical Care Tech</option>
-                  <option value="nutrition">Clinical Nutrition</option>
-                </select>
-              </div>
-              <button className="w-full bg-accent text-white font-black py-5 rounded-xl uppercase tracking-widest hover:bg-primary/90 transition-all shadow-xl">Submit Application</button>
-              <p className="text-center text-[10px] font-bold text-text-dark/40 uppercase tracking-wider">Fast-track admission response within 24 hours</p>
-            </form>
+            <div className="npf_wgts" data-height="400px" data-w="4fcc68647ab9e6fa64da088911e4430a"></div>
+            <p className="text-center text-[10px] font-bold text-text-dark/40 uppercase tracking-wider mt-4">Fast-track admission response within 24 hours</p>
           </motion.div>
         </div>
       </div>

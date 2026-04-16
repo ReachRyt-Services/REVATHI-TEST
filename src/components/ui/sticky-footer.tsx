@@ -138,7 +138,7 @@ const footerLinkGroups: FooterLinkGroup[] = [
   {
     label: 'Admissions',
     links: [
-      { title: 'How to Apply',    href: '/apply'       },
+      { title: 'How to Apply',    href: 'https://apply.revathiinstitutions.com/'       },
       { title: 'Eligibility',     href: '/admissions'  },
       { title: 'Fee Structure',   href: '/downloads'   },
       { title: 'Scholarships',    href: '/admissions'  },

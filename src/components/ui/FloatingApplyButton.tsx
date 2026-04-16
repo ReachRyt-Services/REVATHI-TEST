@@ -30,7 +30,7 @@ export function FloatingApplyButton() {
           exit={{ opacity: 0, x: 100 }}
           className="fixed bottom-10 right-10 z-[100] hidden md:block"
         >
-          <Link href="/apply">
+          <Link href="https://apply.revathiinstitutions.com/">
             <div className="group relative flex items-center">
               {/* Tooltip-like background */}
               <div className="absolute right-full mr-4 bg-primary text-white px-6 py-3 rounded-xl shadow-2xl opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-x-10 group-hover:translate-x-0 whitespace-nowrap border border-white/10">
