@@ -27,7 +27,7 @@ export default function CampusPage() {
       <CampusVideoHero />
       <div className="bg-bg-light pt-8">
         {/* Full-bleed bento gallery */}
-        <div className="-mx-4 md:-mx-16 -mt-10" style={{ height: "90vh" }}>
+        <div className="w-full -mt-10" style={{ height: "90vh" }}>
           <DynamicFrameLayout
             frames={campusFrames}
             className="w-full h-full"

@@ -119,10 +119,10 @@ export function StickyFooter({ className, ...props }: StickyFooterProps) {
 
 // ── Data ──────────────────────────────────────────────────────────────────────
 const socialLinks = [
-  { title: 'Facebook',  href: '#', icon: FacebookIcon  },
-  { title: 'Instagram', href: '#', icon: InstagramIcon },
+  { title: 'Facebook',  href: 'https://www.facebook.com/share/1ENVwx7c9W/', icon: FacebookIcon  },
+  { title: 'Instagram', href: 'https://www.instagram.com/revathi_institutions?igsh=aGJqem0xNGp0b2h6', icon: InstagramIcon },
   { title: 'YouTube',   href: '#', icon: YoutubeIcon   },
-  { title: 'LinkedIn',  href: '#', icon: LinkedinIcon  },
+  { title: 'LinkedIn',  href: 'https://www.linkedin.com/company/revathi-institutions/', icon: LinkedinIcon  },
 ];
 
 const footerLinkGroups: FooterLinkGroup[] = [
@@ -139,9 +139,9 @@ const footerLinkGroups: FooterLinkGroup[] = [
     label: 'Admissions',
     links: [
       { title: 'How to Apply',    href: 'https://apply.revathiinstitutions.com/'       },
-      { title: 'Eligibility',     href: '/admissions'  },
+      { title: 'Eligibility',     href: 'https://apply.revathiinstitutions.com/'  },
       { title: 'Fee Structure',   href: '/downloads'   },
-      { title: 'Scholarships',    href: '/admissions'  },
+      { title: 'Scholarships',    href: 'https://apply.revathiinstitutions.com/'  },
       { title: 'Student Login',   href: 'https://cimsstudentnewui.mastersofterp.in/'            },
       { title: 'Staff Portal',    href: 'https://cims.mastersofterp.in/'            },
     ],

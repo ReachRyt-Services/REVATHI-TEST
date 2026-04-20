@@ -38,7 +38,7 @@ export default function CampusVideoHero() {
             className="rounded-xl bg-[#F2A007] text-[#0F3D3D] hover:bg-white font-black uppercase tracking-widest px-8 shadow-xl transition-all"
             size="lg"
           >
-            <Link href="/admissions">Apply Now</Link>
+            <a href="https://apply.revathiinstitutions.com/">Apply Now</a>
           </Button>
           <Button
             asChild
@@ -53,20 +53,15 @@ export default function CampusVideoHero() {
 
       <ContainerInset className="mx-4 md:mx-8 lg:mx-16 mt-16 pb-32">
         <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10 w-full h-full"> 
-          <video
-            width="100%"
-            height="100%"
-            loop
-            playsInline
-            autoPlay
-            muted
-            className="w-full h-[60vh] md:h-[80vh] object-cover"
-          >
-            <source
-              src="https://videos.pexels.com/video-files/8086707/8086707-uhd_2560_1440_25fps.mp4"
-              type="video/mp4"
-            />
-          </video>
+          <iframe
+            className="w-full h-[60vh] md:h-[80vh] pointer-events-none"
+            src="https://www.youtube.com/embed/QFqJzldA4Zs?si=rMDuw-VFxjZ1pRRw&autoplay=1&mute=1&loop=1&playlist=QFqJzldA4Zs&controls=0&rel=0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+            style={{ border: 'none' }}
+          ></iframe>
           {/* Overlay to ensure text readability if needed, and to blend with the dark blue background */}
           <div className="absolute inset-0 bg-[#003366]/20 mix-blend-multiply"></div>
         </div>

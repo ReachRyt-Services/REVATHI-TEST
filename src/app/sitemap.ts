@@ -10,7 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/about',
     '/courses',
     '/campus',
-    '/admissions',
     '/placements',
     '/gallery',
     '/contact',

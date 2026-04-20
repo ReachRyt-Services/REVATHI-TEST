@@ -34,18 +34,8 @@ export const TestimonialsColumn = (props: {
                 key={i}
               >
                 <p className="text-[#333]/80 font-medium leading-relaxed text-sm">"{text}"</p>
-                <div className="flex items-center gap-3 mt-5 pt-5 border-t border-[#003366]/10">
-                  <img
-                    width={40}
-                    height={40}
-                    src={image}
-                    alt={name}
-                    className="h-10 w-10 rounded-full object-cover"
-                  />
-                  <div className="flex flex-col">
-                    <div className="font-black text-[#003366] tracking-tight leading-5 text-sm">{name}</div>
-                    <div className="leading-5 text-[#008080] tracking-tight text-xs font-semibold">{role}</div>
-                  </div>
+                <div className="mt-5 pt-5 border-t border-[#003366]/10">
+                  <div className="font-black text-[#003366] tracking-tight leading-5 text-sm">{name}</div>
                 </div>
               </div>
             ))}

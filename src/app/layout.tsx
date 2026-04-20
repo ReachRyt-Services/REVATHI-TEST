@@ -75,9 +75,9 @@ export default function RootLayout({
       "availableLanguage": ["en", "ta"]
     },
     "sameAs": [
-      "https://www.facebook.com/revathiinstitutions",
-      "https://www.instagram.com/revathiinstitutions",
-      "https://www.linkedin.com/company/revathi-institutions"
+      "https://www.facebook.com/share/1ENVwx7c9W/",
+      "https://www.instagram.com/revathi_institutions?igsh=aGJqem0xNGp0b2h6",
+      "https://www.linkedin.com/company/revathi-institutions/"
     ]
   };
 

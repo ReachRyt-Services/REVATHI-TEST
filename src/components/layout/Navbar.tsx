@@ -98,7 +98,7 @@ const menu: MenuItem[] = [
   },
   {
     title: "Admissions",
-    url: "/admissions",
+    url: "https://apply.revathiinstitutions.com/",
     items: [
       {
         title: "How to Apply",
@@ -110,7 +110,7 @@ const menu: MenuItem[] = [
         title: "Admissions Info",
         description: "Seats, reservations, and important dates",
         icon: <Users className="size-5 shrink-0 text-accent/80" />,
-        url: "/admissions",
+        url: "https://apply.revathiinstitutions.com/",
       },
       {
         title: "Contact Admissions",

@@ -29,7 +29,7 @@ export default function Placements() {
         </div>
 
         <div className="mt-16">
-          <a href="/admissions" className="btn btn-warning bg-amber-400 hover:bg-amber-500 text-stanford-dark font-bold border-none px-8">
+          <a href="https://apply.revathiinstitutions.com/" className="btn btn-warning bg-amber-400 hover:bg-amber-500 text-stanford-dark font-bold border-none px-8">
             Start Your Journey <Link2 size={18} className="ml-2" />
           </a>
         </div>
