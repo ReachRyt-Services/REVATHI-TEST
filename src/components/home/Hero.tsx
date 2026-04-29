@@ -77,7 +77,7 @@ export default function Hero() {
           >
             <h3 className="text-xl sm:text-2xl font-black text-primary mb-2 uppercase tracking-tight font-display">Secure Your Future</h3>
             <p className="text-sm sm:text-base text-text-dark/70 mb-8 font-semibold">Initiate your professional breakthrough today.</p>
-            <div className="npf_wgts" data-height="400px" data-w="4fcc68647ab9e6fa64da088911e4430a"></div>
+            <div className="npf_wgts" data-height="550px" data-w="4fcc68647ab9e6fa64da088911e4430a"></div>
             <p className="text-center text-[10px] font-bold text-text-dark/40 uppercase tracking-wider mt-4">Fast-track admission response within 24 hours</p>
           </motion.div>
         </div>
